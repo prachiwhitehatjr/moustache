@@ -23,10 +23,8 @@ function preload(){
     }
     function draw(){
     image(video,0,0,300,300);
-    fill(255,0,0);
-    stroke(250,0,0);
-    circle(nosex,nosey,20);
-    image(clownnose,nosex,nosey,30,30);
+
+    image(clownnose,nosex-30,nosey,30,30);
     
     }
     function take_snapshot(){
