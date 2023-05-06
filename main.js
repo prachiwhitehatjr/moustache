@@ -1,3 +1,5 @@
+nosex=0;
+nosey=0;
 function preload(){
     clownnose=loadImage('https://i.postimg.cc/sshfQbg3/m.png');
     }
