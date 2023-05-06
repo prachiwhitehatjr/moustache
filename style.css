@@ -1,0 +1,18 @@
+canvas{
+    animation-name: moustache;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes moustache{
+    from{
+        box-shadow: 1px 1px 38px rgb(175, 55, 235);
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(79, 82, 139);
+    }
+
+}
+.btn-success:hover{
+    background-color:darkslateblue;
+}
